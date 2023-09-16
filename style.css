@@ -1,0 +1,53 @@
+section#calculator {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.wrapper {
+    background: lightgray;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+div#display {
+    background: beige;
+    height: 100px;
+    border-radius: 10px;
+}
+
+div#main-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+div#extra-buttons {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+button#clear {
+    background-color: palevioletred;
+}
+
+button#delete {
+    background-color: mediumpurple;
+}
