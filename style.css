@@ -51,3 +51,17 @@ button#clear {
 button#delete {
     background-color: mediumpurple;
 }
+
+div#bottom-row {
+    height: 50%;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 5%;
+}
+
+div#top-row {
+    height: 50%;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 5%;
+}
